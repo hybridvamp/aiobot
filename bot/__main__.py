@@ -2,6 +2,7 @@ import shutil, psutil
 import signal
 import os
 import asyncio
+import aiohttp
 
 from pyrogram import idle
 from bot import app
